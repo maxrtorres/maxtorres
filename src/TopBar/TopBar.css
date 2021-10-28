@@ -1,0 +1,25 @@
+ul.nav {
+  background-color: #08f;
+  text-align: center;
+  font-weight: 200;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+ul.nav > li {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 3vw;
+}
+ul.nav > li > a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px transparent;
+  transition: border-bottom 0.4s;
+}
+ul.nav > li > a:hover {
+  border-bottom: 1px solid white;
+}
+ul.nav > li > .active {
+  border-bottom: 1px solid white;
+}
