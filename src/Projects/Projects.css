@@ -1,0 +1,14 @@
+.projects h1 {
+  margin: 0vw 0vw 5vw 0vw;
+  font-size: 12vw;
+  font-weight: 100;
+  color: white;
+}
+.projects p {
+  font-size: 3vw;
+  font-weight: 200;
+  color: white;
+}
+.projects a {
+  color: white;
+}

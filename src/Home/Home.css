@@ -1,0 +1,32 @@
+.home h1 {
+  margin: 0vw 0vw 5vw 0vw;
+  font-size: 12vw;
+  font-weight: 100;
+  color: white;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.linkButton {
+  margin: 2vw;
+  padding: 1vw;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+}
+
+@media (hover: hover) {
+  .linkButton:hover {
+    background-color: white;
+  }
+}
+
+.buttonImage {
+  height: 8vw;
+  width: 8vw;
+  pointer-events: none;
+}
