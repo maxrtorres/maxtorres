@@ -3,7 +3,7 @@ import "./TopBar.css";
 
 const TopBar = () => {
   return (
-    <ul class="nav">
+    <ul className="nav">
       <li>
         <NavLink to="/" activeClassName="active" exact={true} id="homelink">
           Home

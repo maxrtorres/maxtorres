@@ -3,7 +3,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div class="projects">
+    <div className="projects">
       <FadeInDiv seconds={0.5}>
         <h1>Projects</h1>
       </FadeInDiv>

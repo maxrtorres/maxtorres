@@ -5,11 +5,6 @@ function MyParticles() {
     <Particles
       id="tsparticles"
       options={{
-        background: {
-          color: {
-            value: "#5B89AE",
-          },
-        },
         fpsLimit: 30,
         interactivity: {
           events: {
@@ -28,10 +23,10 @@ function MyParticles() {
         },
         particles: {
           color: {
-            value: "#ADF5FF",
+            value: "#D3D3D3",
           },
           links: {
-            color: "#ADF5FF",
+            color: "#D3D3D3",
             distance: 200,
             enable: true,
             opacity: 1,
@@ -51,9 +46,10 @@ function MyParticles() {
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 1000,
             },
-            value: 40,
+            value: 50,
+            limit: 100,
           },
           opacity: {
             value: 1,
@@ -62,8 +58,8 @@ function MyParticles() {
             type: "circle",
           },
           size: {
-            random: true,
-            value: 4,
+            random: false,
+            value: 2,
           },
         },
       }}

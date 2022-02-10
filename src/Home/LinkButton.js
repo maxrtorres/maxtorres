@@ -4,9 +4,9 @@ const LinkButton = (props) => {
   return (
     <button
       onClick={() => window.open(props.link, props.target)}
-      class="linkButton"
+      className="linkButton"
     >
-      <img src={props.image} class="buttonImage" />
+      <img src={props.image} className="buttonImage" />
     </button>
   );
 };

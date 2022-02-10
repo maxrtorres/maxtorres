@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div class="contacts">
+    <div className="contacts">
       <FadeInDiv seconds={0.5}>
         <h1>Contact Info</h1>
       </FadeInDiv>
