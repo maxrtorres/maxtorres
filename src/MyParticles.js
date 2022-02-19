@@ -48,7 +48,7 @@ function MyParticles() {
               enable: true,
               area: 1000,
             },
-            value: 50,
+            value: 40,
             limit: 100,
           },
           opacity: {
@@ -59,7 +59,7 @@ function MyParticles() {
           },
           size: {
             random: false,
-            value: 2,
+            value: 1,
           },
         },
       }}
