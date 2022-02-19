@@ -8,12 +8,11 @@ const Contact = () => {
         <h1>Contact Info</h1>
       </FadeInDiv>
       <FadeInDiv seconds={0.75}>
-        <p>
-          Email:{" "}
-          <a href="mailto:maxtorres487@gmail.com" target="_self">
-            maxtorres487@gmail.com
-          </a>
-        </p>
+        <button
+          onClick={() => window.open("mailto:maxtorres487@gmail.com", "_self")}
+        >
+          maxtorres487@gmail.com
+        </button>
       </FadeInDiv>
     </div>
   );

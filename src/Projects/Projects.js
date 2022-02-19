@@ -8,14 +8,16 @@ const Projects = () => {
         <h1>Projects</h1>
       </FadeInDiv>
       <FadeInDiv seconds={0.75}>
-        <p>
-          <a
-            href="https://play.google.com/store/apps/details?id=com.blitznote"
-            target="_blank"
-          >
-            BlitzNote: on Google Play
-          </a>
-        </p>
+        <button
+          onClick={() =>
+            window.open(
+              "https://play.google.com/store/apps/details?id=com.blitznote",
+              "_blank"
+            )
+          }
+        >
+          BlitzNote: on Google Play
+        </button>
       </FadeInDiv>
     </div>
   );

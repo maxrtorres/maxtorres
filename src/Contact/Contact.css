@@ -4,11 +4,11 @@
   font-weight: 200;
   color: white;
 }
-.contacts p {
+
+.contacts button {
   font-size: 3vw;
   font-weight: 200;
   color: white;
-}
-.contacts a {
-  color: white;
+  text-decoration: underline;
+  cursor: pointer;
 }
