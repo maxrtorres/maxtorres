@@ -11,12 +11,12 @@ const Projects = () => {
         <button
           onClick={() =>
             window.open(
-              "https://play.google.com/store/apps/details?id=com.blitznote",
+              "https://play.google.com/store/apps/dev?id=4945933172439007816",
               "_blank"
             )
           }
         >
-          BlitzNote: on Google Play
+          Developer Page - Google Play
         </button>
       </FadeInDiv>
     </div>
