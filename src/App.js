@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import TopBar from "./TopBar/TopBar";
@@ -8,17 +7,6 @@ import Contact from "./Contact/Contact";
 import MyParticles from "./MyParticles";
 
 function App() {
-  const images = ["./Images/background3.jpg"];
-
-  const [currentImg, setCurrentImg] = useState(0);
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentImg((cur) => (cur + 1) % images.length);
-  //   }, 10000);
-  //   return () => clearInterval(interval);
-  // }, []);
-
   return (
     <div>
       <Router>
@@ -26,7 +14,7 @@ function App() {
         <div
           className="background-image"
           style={{
-            backgroundImage: "url(" + images[currentImg] + ")",
+            backgroundImage: "url(./Images/background.jpg)",
           }}
         />
         <main>
