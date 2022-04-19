@@ -1,5 +1,10 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import TopBar from "./TopBar/TopBar";
 import Home from "./Home/Home";
 import Projects from "./Projects/Projects";
@@ -29,6 +34,9 @@ function App() {
               </Route>
               <Route path="/contact">
                 <Contact />
+              </Route>
+              <Route path="*">
+                <Redirect to="/" />
               </Route>
             </Switch>
           </div>
